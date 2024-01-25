@@ -1,0 +1,13 @@
+[
+    {
+        "java_files": [
+            "/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java"
+        ],
+        "javac_switches": {
+            "classpath": "/home/sascha/Documents/uni/research/plse/RLCtest/build",
+            "d": "/home/sascha/Documents/uni/research/plse/RLCtest/build",
+            "g:none": true,
+            "sourcepath": "/home/sascha/Documents/uni/research/plse/RLCtest/src"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+Apache Ant(TM) version 1.10.14 compiled on September 23 2023
+Trying the default build file: build.xml
+Buildfile: /home/sascha/Documents/uni/research/plse/RLCtest/build.xml
+Detected Java version: 21 in: /usr/lib/jvm/java-21-openjdk
+Detected OS: Linux
+parsing buildfile /home/sascha/Documents/uni/research/plse/RLCtest/build.xml with URI = file:/home/sascha/Documents/uni/research/plse/RLCtest/build.xml
+Project base dir set to: /home/sascha/Documents/uni/research/plse/RLCtest
+parsing buildfile jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Property "build.classes" has not been set
+Property "build.lib.dir" has not been set
+Build sequence for target(s) `clean' is [clean]
+Complete build sequence is [clean, init, compile, jar, ]
+
+clean:
+   [delete] Could not find file /home/sascha/Documents/uni/research/plse/RLCtest/RLCtest.jar to delete.
+Build sequence for target(s) `compile' is [init, compile]
+Complete build sequence is [init, compile, clean, jar, ]
+
+init:
+    [mkdir] Created dir: /home/sascha/Documents/uni/research/plse/RLCtest/build
+
+compile:
+    [javac] /home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.class skipped - don't know how to handle it
+    [javac] RLCcheckerTest.java added as RLCcheckerTest.class doesn't exist.
+    [javac] Compiling 1 source file to /home/sascha/Documents/uni/research/plse/RLCtest/build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+    [javac] '-d'
+    [javac] '/home/sascha/Documents/uni/research/plse/RLCtest/build'
+    [javac] '-classpath'
+    [javac] '/home/sascha/Documents/uni/research/plse/RLCtest/build'
+    [javac] '-sourcepath'
+    [javac] '/home/sascha/Documents/uni/research/plse/RLCtest/src'
+    [javac] '-g:none'
+    [javac] 
+    [javac] The ' characters around the executable and arguments are
+    [javac] not part of the command.
+    [javac] File to be compiled:
+    [javac]     /home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

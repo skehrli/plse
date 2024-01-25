@@ -1,0 +1,2 @@
+https://github.com/osmandapp/OsmAnd 29c2aa518d8c14b83c42a8d1d72e73bca8bbbb12
+https://github.com/apache/nutch 85fea6e46475cb74c61c13193fff008a7e7e6a37

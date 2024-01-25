@@ -1,0 +1,43 @@
+<project name="RLCtest" basedir="." default="compile">
+
+    <!-- Define properties -->
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="main.class" value="RLCtest.main"/>
+    <property name="jar.file" value="RLCtest.jar"/>
+
+    <!-- Define targets -->
+    <target name="init">
+        <!-- Create the build directory if it doesn't exist -->
+        <mkdir dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <!-- Compile the Java source file -->
+        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <!-- Create a JAR file -->
+        <jar destfile="${jar.file}" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="clean">
+        <!-- Clean up build artifacts -->
+        <delete dir="${build.dir}"/>
+        <delete file="${jar.file}"/>
+    </target>
+
+    <path id="classpath">
+      <pathelement location="${build.classes}"/>
+      <fileset dir="../checker-framework-3.42.0" includes="checker/dist/*.jar"/>
+      <fileset dir="${build.lib.dir}">
+        <include name="*.jar" />
+      </fileset>
+    </path>
+
+</project>

@@ -1,0 +1,5 @@
+WORKING DIR: /home/sascha/Documents/uni/research/plse/RLCtest
+JAVA_HOME: /usr
+PATH: /usr/bin:/home/sascha/.opam/default/bin:/home/sascha/Documents/uni/research/SAFARI/upmem-2023.1.0-Linux-x86_64/bin:/home/sascha/.local/bin:/home/sascha/Documents/uni/research/SAFARI/upmem-2023.1.0-Linux-x86_64/bin:/home/sascha/.cargo/bin:/home/sascha/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/:/home/sascha/.local/bin:/home/sascha/bin:/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/:/home/sascha/.local/bin:/home/sascha/bin
+DLJC_CMD: /home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/checker/bin/.do-like-javac/dljc -t wpi --jdkVersion 11 --checker org.checkerframework.checker.resourceleak.ResourceLeakChecker  -- ant clean compile 
+Directory for generated annotation files: /tmp/wpi-ajava-20240124-145418-q6lybko0

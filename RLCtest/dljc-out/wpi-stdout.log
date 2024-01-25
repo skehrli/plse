@@ -1,0 +1,15 @@
+Running for wpi: 'echo' '"-----------------------------------------------------------"'
+
+"-----------------------------------------------------------"
+Running for wpi: '/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/checker/bin/javac' '-Xmaxerrs' '10000' '-Xmaxwarns' '10000' '-J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED' '-classpath' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-processor' 'org.checkerframework.checker.resourceleak.ResourceLeakChecker' '-d' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-sourcepath' '/home/sascha/Documents/uni/research/plse/RLCtest/src' '-g:none' '/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java' '-Ainfer=ajava' '-Awarns'
+
+/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java:27: warning: [required.method.not.called] @MustCall method close may not have been invoked on new ZipFile(archivename) or any of its aliases.
+    zf = new ZipFile(archivename);
+         ^
+  The type of object is: java.util.zip.ZipFile.
+  Reason for going out of scope: regular method exit
+1 warning
+Running for wpi: '/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/checker/bin/javac' '-Xmaxerrs' '10000' '-Xmaxwarns' '10000' '-J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED' '-Aajava=/tmp/wpi-ajava-20240124-145418-q6lybko0/iteration0' '-classpath' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-processor' 'org.checkerframework.checker.resourceleak.ResourceLeakChecker' '-d' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-sourcepath' '/home/sascha/Documents/uni/research/plse/RLCtest/src' '-g:none' '/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java' '-Ainfer=ajava' '-Awarns'
+
+Running for wpi: '/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/checker/bin/javac' '-Xmaxerrs' '10000' '-Xmaxwarns' '10000' '-J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED' '-Aajava=/tmp/wpi-ajava-20240124-145418-q6lybko0/iteration0' '-classpath' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-processor' 'org.checkerframework.checker.resourceleak.ResourceLeakChecker' '-d' '/home/sascha/Documents/uni/research/plse/RLCtest/build' '-sourcepath' '/home/sascha/Documents/uni/research/plse/RLCtest/src' '-g:none' '/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java'
+

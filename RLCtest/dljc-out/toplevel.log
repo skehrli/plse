@@ -1,0 +1,10 @@
+[INFO] Running command /home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/checker/bin/.do-like-javac/dljc -t wpi --jdkVersion 11 --checker org.checkerframework.checker.resourceleak.ResourceLeakChecker -- ant clean compile
+[INFO] Platform: Linux-6.6.6-arch1-1-surface-x86_64-with-glibc2.38
+[INFO] PATH=/usr/bin:/home/sascha/.opam/default/bin:/home/sascha/Documents/uni/research/SAFARI/upmem-2023.1.0-Linux-x86_64/bin:/home/sascha/.local/bin:/home/sascha/Documents/uni/research/SAFARI/upmem-2023.1.0-Linux-x86_64/bin:/home/sascha/.cargo/bin:/home/sascha/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/:/home/sascha/.local/bin:/home/sascha/bin:/home/sascha/Documents/uni/research/plse/checker-framework-3.42.0/:/home/sascha/.local/bin:/home/sascha/bin
+[INFO] SHELL=/usr/bin/zsh
+[INFO] PWD=/home/sascha/Documents/uni/research/plse/RLCtest
+[INFO] Results: [{'java_files': ['/home/sascha/Documents/uni/research/plse/RLCtest/src/RLCcheckerTest.java'],
+  'javac_switches': {'classpath': '/home/sascha/Documents/uni/research/plse/RLCtest/build',
+                     'd': '/home/sascha/Documents/uni/research/plse/RLCtest/build',
+                     'g:none': True,
+                     'sourcepath': '/home/sascha/Documents/uni/research/plse/RLCtest/src'}}]
